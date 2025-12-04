@@ -1,6 +1,6 @@
 # 🏠 Bem-vindo à Revista Têxtil
 
-Bem-vindo à **Central de Conhecimento e Cultura** da Revista Têxtil!
+Bem-vindo à **Central de Conhecimento e Cultura** da [Revista Têxtil](https://revistatextil.com.br/)!
 
 Este handbook é o guia definitivo para entender nossa empresa, valores, estrutura organizacional e como trabalhamos.
 

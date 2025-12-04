@@ -70,7 +70,7 @@ Esta seção descreve as principais atividades que mantêm a Revista Têxtil ope
 
 ---
 
-## 🎨 4. Design e Diagramação
+## 🎨 3. Design e Diagramação
 
 ### 👤 Cargo Responsável
 **Designer Gráfico**

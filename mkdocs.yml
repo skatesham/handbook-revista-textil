@@ -57,8 +57,10 @@ markdown_extensions:
 
 nav:
   - 🏠 Início: index.md
+  - 🌱 Novos Integrantes: novos-integrantes.md
   - 🏢 Estrutura Organizacional: estrutura.md
   - 📋 Responsabilidades: responsabilidades.md
+  - 🗓️ Reuniões Essenciais: reunioes.md
   - 📖 Publicação de uma Edição: publicar.md
 
 repo_url: https://github.com/revistatextil/handbook-revista-textil

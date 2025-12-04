@@ -98,4 +98,3 @@ Este projeto é de uso interno da Revista Têxtil.
 <p align="center">
   Feito com ❤️ pela equipe <strong>Revista Têxtil</strong>
 </p>
-# handbook-revista-textil

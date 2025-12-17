@@ -62,6 +62,11 @@ nav:
   - 📋 Responsabilidades: responsabilidades.md
   - 🗓️ Reuniões Essenciais: reunioes.md
   - 📖 Publicação de uma Edição: publicar.md
+  - 🌐 Gerenciar Site:
+    - 🏠 Central de Publicações: central-publicacoes.md
+    - 📰 Publicar Notícias (Autor): publicar-noticias.md
+    - 🏷️ Configurar Categorias (Editor): configurar-categorias.md
+    - 📄 Alterar Páginas (Admin): alterar-paginas.md
 
 repo_url: https://github.com/revistatextil/handbook-revista-textil
 repo_name: handbook-revista-textil

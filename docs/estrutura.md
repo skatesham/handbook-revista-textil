@@ -1,66 +1,94 @@
 # 🏢 Estrutura Organizacional
 
-## Organograma da Empresa
+## Hierarquia
+
+- [**👔 CEO**](#ceo---direcao-executiva) - Direção Executiva
+-    - [**📢 Diretor de Comunicação**](#diretor-de-comunicacao)
+        - [✍️ Editor-Chefe](#editor-chefe)
+            - [📰 Colaboradores / Repórteres](#colaboradores-reporteres)
+            - [🎨 Designer Gráfico](#designer-grafico)
+        - [📱 Gerente de Marketing](#gerente-de-marketing)
+            - [📲 Social Media](#social-media)
+            - [📊 Analista de Marketing](#analista-de-marketing)
+        - [💼 Gerente de Vendas](#gerente-de-vendas)
+            - [🤝 Executivo de Contas](#executivo-de-contas)
+    - [**⚙️ Diretor de Operações**](#diretor-de-operacoes)
+        - [💻 Gerente de TI](#gerente-de-ti)
+            - [👨‍💻 Desenvolvedores](#desenvolvedores)
+            - [🛠️ Suporte Técnico](#suporte-tecnico)
+        - [📦 Coord. Logística](#coordenador-de-logistica)
+    - [**💰 Diretor Financeiro**](#diretor-financeiro)
+        - [📋 Contador](#contador)
+        - [📄 Assistente Administrativo](#assistente-administrativo)
+
+---
+
+## Organograma Visual
 
 ```mermaid
-graph TB
-    CEO[👔 CEO<br/>Direção Executiva]
+graph TD
+    CEO[👔 CEO]
     
-    CEO --> COM[📢 Diretor de Comunicação]
-    CEO --> OPS[⚙️ Diretor de Operações]
-    CEO --> FIN[💰 Diretor Financeiro]
+    CEO --> COM[📢 Dir. Comunicação]
+    CEO --> OPS[⚙️ Dir. Operações]
+    CEO --> FIN[💰 Dir. Financeiro]
     
     COM --> EDI[✍️ Editor-Chefe]
-    COM --> MKT[📱 Gerente de Marketing]
+    COM --> MKT[📱 Ger. Marketing]
+    COM --> VEN[💼 Ger. Vendas]
     
-    EDI --> REP1[📰 Repórteres]
-    EDI --> DES[🎨 Designer Gráfico]
+    EDI --> REP1[📰 Colaboradores / Repórteres]
+    EDI --> DES[🎨 Designer]
     
     MKT --> SOC[📲 Social Media]
-    MKT --> ADS[📊 Analista de Marketing]
+    MKT --> ADS[📊 Analista Mkt]
     
-    OPS --> TEC[💻 Gerente de TI]
-    OPS --> LOG[📦 Coordenador de Logística]
+    VEN --> EXE[🤝 Exec. Contas]
     
-    TEC --> DEV[👨‍💻 Desenvolvedores]
-    TEC --> SUP[🛠️ Suporte Técnico]
+    OPS --> TEC[💻 Ger. TI]
+    OPS --> LOG[📦 Coord. Log.]
+    
+    TEC --> DEV[👨‍💻 Devs]
+    TEC --> SUP[🛠️ Suporte]
     
     FIN --> CONT[📋 Contador]
-    FIN --> ADM[📄 Assistente Administrativo]
+    FIN --> ADM[📄 Assist. Admin]
     
-    %% Nível Estratégico - Azul claro
+    %% Nível Estratégico - Azul
     style CEO fill:#e3f2fd,stroke:#1976d2,stroke-width:3px,color:#000
     
-    %% Nível Tático - Verde claro
+    %% Nível Tático - Verde
     style COM fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
     style OPS fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
     style FIN fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
     
-    %% Nível Gerencial - Amarelo claro
+    %% Nível Gerencial - Amarelo
     style EDI fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
     style MKT fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style VEN fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
     style TEC fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
     style LOG fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
     style CONT fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
     
-    %% Nível Operacional - Laranja claro
+    %% Nível Operacional - Laranja
     style REP1 fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style DES fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style SOC fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style ADS fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
+    style EXE fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style DEV fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style SUP fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
     style ADM fill:#ffe0b2,stroke:#fb8c00,stroke-width:1px,color:#000
 ```
 
-### Legenda de Cores
+### Legenda
 
-| Cor | Nível | Descrição |
-|-----|-------|-----------|
-| 🔵 **Azul** | Estratégico | CEO - Alta Direção |
-| 🟢 **Verde** | Tático | Diretores - Gestão Estratégica |
-| 🟡 **Amarelo** | Gerencial | Gerentes e Coordenadores |
-| 🟠 **Laranja** | Operacional | Equipe Técnica e Operacional |
+| Cor | Nível |
+|-----|-------|
+| 🔵 Azul | Estratégico |
+| 🟢 Verde | Tático |
+| 🟡 Amarelo | Gerencial |
+| 🟠 Laranja | Operacional |
 
 ---
 
@@ -137,7 +165,7 @@ graph TB
 
 ---
 
-#### 📰 Repórteres
+#### 📰 Colaboradores / Repórteres {#colaboradores-reporteres}
 
 **Responsabilidades:**
 
@@ -189,7 +217,46 @@ graph TB
 
 ---
 
-#### 💻 Gerente de TI
+#### � Analista de Marketing
+
+**Responsabilidades:**
+
+- Analisar métricas e KPIs de campanhas
+- Elaborar relatórios de performance
+- Pesquisar mercado e concorrência
+- Apoiar estratégias de marketing digital
+
+**Reports to:** Gerente de Marketing
+
+---
+
+#### 💼 Gerente de Vendas
+
+**Responsabilidades:**
+
+- Desenvolver estratégias comerciais
+- Gerenciar carteira de anunciantes
+- Negociar contratos publicitários
+- Atingir metas de receita
+
+**Reports to:** Diretor de Comunicação
+
+---
+
+#### 🤝 Executivo de Contas
+
+**Responsabilidades:**
+
+- Prospectar novos anunciantes
+- Manter relacionamento com clientes
+- Elaborar propostas comerciais
+- Acompanhar entregas e satisfação
+
+**Reports to:** Gerente de Vendas
+
+---
+
+#### � Gerente de TI
 
 **Responsabilidades:**
 
@@ -215,6 +282,32 @@ graph TB
 
 ---
 
+#### 🛠️ Suporte Técnico
+
+**Responsabilidades:**
+
+- Atender chamados de suporte interno
+- Manter equipamentos e sistemas funcionando
+- Auxiliar usuários com problemas técnicos
+- Documentar soluções e procedimentos
+
+**Reports to:** Gerente de TI
+
+---
+
+#### 📦 Coordenador de Logística
+
+**Responsabilidades:**
+
+- Coordenar distribuição da revista impressa
+- Gerenciar estoque de materiais
+- Organizar logística de eventos
+- Controlar entregas e prazos
+
+**Reports to:** Diretor de Operações
+
+---
+
 #### 📋 Contador
 
 **Responsabilidades:**
@@ -223,6 +316,19 @@ graph TB
 - Elaborar demonstrativos financeiros
 - Cuidar de obrigações fiscais e tributárias
 - Assessorar decisões financeiras
+
+**Reports to:** Diretor Financeiro
+
+---
+
+#### 📄 Assistente Administrativo
+
+**Responsabilidades:**
+
+- Apoiar rotinas administrativas e financeiras
+- Organizar documentos e arquivos
+- Auxiliar em processos de compras
+- Atender fornecedores e parceiros
 
 **Reports to:** Diretor Financeiro
 

@@ -3,7 +3,7 @@
 ## Hierarquia
 
 - [**👔 CEO**](#ceo---direcao-executiva) - Direção Executiva
--    - [**📢 Diretor de Comunicação**](#diretor-de-comunicacao)
+    - [**📢 Diretor de Comunicação**](#diretor-de-comunicacao)
         - [✍️ Editor-Chefe](#editor-chefe)
             - [📰 Colaboradores / Repórteres](#colaboradores-reporteres)
             - [🎨 Designer Gráfico](#designer-grafico)

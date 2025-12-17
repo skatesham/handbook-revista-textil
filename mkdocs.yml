@@ -1,6 +1,6 @@
 site_name: Revista Têxtil Handbook
 site_description: Central de conhecimento e cultura da Revista Têxtil
-site_url: https://revistatextil.github.io/handbook-revista-textil/
+site_url: https://skatesham.github.io/handbook-revista-textil/
 
 theme:
   name: material
@@ -68,5 +68,5 @@ nav:
     - 🏷️ Configurar Categorias (Editor): configurar-categorias.md
     - 📄 Alterar Páginas (Admin): alterar-paginas.md
 
-repo_url: https://github.com/revistatextil/handbook-revista-textil
+repo_url: https://skatesham.github.io/handbook-revista-textil
 repo_name: handbook-revista-textil

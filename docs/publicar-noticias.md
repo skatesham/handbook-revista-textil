@@ -1,85 +1,75 @@
 # 📰 Publicar Notícias no Site
 
-!!! info "Perfil: Autor"
-    Este guia é destinado a usuários com perfil de **Autor** no WordPress.
+**Perfil necessário:** Autor
 
 [:material-arrow-left: Voltar para Central de Publicações](central-publicacoes.md)
 
 ---
 
-## 📋 Passo a Passo
+## 1. Recursos Obrigatórios
 
-### :material-numeric-1-circle:{ .lg } Passo 1: Acessar a Área de Posts
+Antes de iniciar, tenha em mãos:
 
-??? example "Como navegar até Posts"
-    1. No painel de controle do WordPress
-    2. Na **barra lateral esquerda**, localize o menu
-    3. Clique em **"Posts"**
-    4. Clique em **"Adicionar Novo"**
-
-```mermaid
-flowchart LR
-    A[🏠 Painel WordPress] --> B[📝 Posts]
-    B --> C[➕ Adicionar Novo]
-    C --> D[📄 Nova Página de Post]
-```
-
-| Ação | Localização | Ícone |
-|------|-------------|-------|
-| **Posts** | Barra lateral esquerda | :material-file-document: |
-| **Adicionar Novo** | Submenu de Posts | :material-plus-circle: |
+- **Título** da matéria (claro, objetivo, máx. 70 caracteres)
+- **Imagem de capa** (qualidade alta, horizontal)
+- **Categoria(s)** correta(s)
+- **Imagens do conteúdo** (quando aplicável)
+- **Fonte da informação** (site, autor, entrevista, assessoria etc.)
 
 ---
 
-### :material-numeric-3-circle:{ .lg } Passo 3: Usar o Construtor Divi
+## 2. Acessar a Área de Posts
 
-!!! warning "Importante"
-    Ao abrir a página de criação do post, **clique em "Usar o Construtor Divi"** para ter acesso a todas as ferramentas de edição visual.
-
-??? success "Interface do Construtor Divi"
-    O construtor Divi oferece uma interface visual moderna e intuitiva para criar conteúdo rico e bem formatado.
-
-#### Elementos da Página de Criação
-
-| Elemento | Localização | Função |
-|----------|-------------|--------|
-| **Título do Post** | Parte superior | Inserir o título da notícia |
-| **Área de Conteúdo** | Centro da página | Adicionar texto, imagens e mídia |
-| **Opções de Publicação** | Barra lateral direita | Publicar, agendar ou salvar rascunho |
-| **Formato do Post** | Barra lateral direita | Escolher tipo de formato |
-| **Categorias** | Barra lateral direita | Classificar a notícia |
+1. No painel WordPress, clique em **Posts** (barra lateral esquerda)
+2. Clique em **Adicionar Novo**
+3. Clique em **"Usar o Construtor Divi"** para edição visual
 
 ---
 
-### :material-numeric-4-circle:{ .lg } Passo 4: Preencher o Conteúdo
+## 3. Criação de Novo Post (Visual Builder)
 
-??? abstract "Estrutura Recomendada para Notícias"
-    
-    **Título:** Claro, objetivo e atrativo (máx. 70 caracteres)
-    
-    **Subtítulo:** Complementa o título com informação adicional
-    
-    **Lead:** Primeiro parágrafo com as informações principais (Quem, O quê, Quando, Onde, Por quê)
-    
-    **Corpo:** Desenvolvimento da notícia com detalhes e citações
-    
-    **Imagens:** Fotos relevantes com legendas e créditos
+### Etapa 1 – Estrutura Inicial
 
-#### Checklist de Conteúdo
+1. Adicionar **Título** do post
+2. Definir **Categoria(s)** (barra lateral direita)
+3. Selecionar **Imagem de Capa**
 
-- [ ] Título preenchido
-- [ ] Conteúdo adicionado
-- [ ] Imagens inseridas com créditos
-- [ ] Categoria selecionada
-- [ ] Tags adicionadas (se aplicável)
-- [ ] Revisão ortográfica feita
+### Etapa 2 – Conteúdo Principal
+
+#### Bloco 1 – Abertura
+
+1. Adicionar **texto introdutório** (Lead: Quem, O quê, Quando, Onde, Por quê)
+2. Utilizar **subtítulo (Heading 2)** quando necessário
+
+#### Bloco 2 – Conteúdo Visual (se aplicável)
+
+1. Adicionar **título da imagem** (opcional)
+2. Inserir **Imagem** (preferencialmente em **fullscreen**)
+3. Abaixo da imagem, adicionar **texto de fonte**:
+      - Tipo: *Paragraph*
+      - Estilo: *itálico*
+      - Alinhamento: *centralizado*
+
+#### Bloco 3 – Desenvolvimento
+
+1. Adicionar os **textos necessários** do conteúdo
+2. Manter parágrafos curtos e leitura fluida
+
+### Etapa 3 – Continuidade
+
+Repetir o ciclo: **Texto → Imagem → Fonte**
+
+Alternar blocos visuais e textuais para manter ritmo e interesse.
+
+### Etapa 4 – Encerramento
+
+Adicionar **Fonte da notícia**:
+
+*Fonte: Nome do autor / Veículo / Assessoria*
 
 ---
 
-### :material-numeric-5-circle:{ .lg } Passo 5: Selecionar a Categoria
-
-!!! info "Categorias Disponíveis"
-    Selecione a categoria apropriada na **barra lateral direita** para classificar corretamente sua notícia.
+## 4. Categorias Disponíveis
 
 | Categoria | Tipo de Conteúdo |
 |-----------|------------------|
@@ -92,89 +82,71 @@ flowchart LR
 
 ---
 
-### :material-numeric-6-circle:{ .lg } Passo 6: Publicar a Notícia
+## 5. Publicar a Notícia
 
-??? success "Opções de Publicação"
-    
-    Na **barra lateral direita**, você encontrará as seguintes opções:
-    
-    - **Publicar:** Publica imediatamente no site
-    - **Salvar Rascunho:** Salva sem publicar
-    - **Visualizar:** Pré-visualiza como ficará no site
-    - **Agendar:** Define data/hora futura para publicação
+Na barra lateral direita:
+
+- **Publicar:** publica imediatamente
+- **Salvar Rascunho:** salva sem publicar
+- **Visualizar:** pré-visualiza no site
+- **Agendar:** define data/hora futura
 
 !!! tip "Recomendação"
-    Sempre use a opção **"Visualizar"** antes de publicar para verificar como a notícia aparecerá para os leitores.
-
-```mermaid
-flowchart TD
-    A[📝 Conteúdo Pronto] --> B{Revisar?}
-    B -->|Sim| C[👁️ Visualizar]
-    C --> D{Aprovado?}
-    D -->|Sim| E[✅ Publicar]
-    D -->|Não| F[✏️ Editar]
-    F --> B
-    B -->|Não| G[💾 Salvar Rascunho]
-```
+    Sempre use **Visualizar** antes de publicar.
 
 ---
 
-## ✏️ Editar Posts Existentes
+## 6. Diretrizes Importantes
 
-??? example "Como editar um post já publicado"
-    
-    1. Acesse **Posts** na barra lateral
-    2. Localize o post desejado na lista
-    3. Passe o mouse sobre o título
-    4. Clique em **"Editar"** (aparece abaixo do título)
-    5. Faça as alterações necessárias
-    6. Clique em **"Atualizar"** para salvar
-
-| Ação | Descrição |
-|------|-----------|
-| :material-pencil: **Editar** | Abre o post para edição |
-| :material-eye: **Ver** | Visualiza o post publicado |
-| :material-delete: **Lixeira** | Move o post para a lixeira |
-| :material-content-copy: **Duplicar** | Cria uma cópia do post |
+- É permitido adicionar **múltiplas imagens**
+- Podem ser usados **layouts variados** (1 coluna, 2 colunas, destaque, etc.)
+- Componentes extras podem ser utilizados para enriquecer a matéria
+- **Responsividade é obrigatória**: testar em desktop, tablet e celular
+- Evitar excesso de elementos que prejudiquem a leitura
 
 ---
 
-## 🗑️ Excluir Posts
+## 7. Checklist de Publicação
 
-!!! danger "Atenção"
-    Posts excluídos vão para a **Lixeira** e podem ser recuperados em até 30 dias. Após esse período, são excluídos permanentemente.
-
-??? warning "Como excluir um post"
-    
-    1. Acesse **Posts** na barra lateral
-    2. Localize o post desejado
-    3. Passe o mouse sobre o título
-    4. Clique em **"Lixeira"**
+- [ ] Título preenchido
+- [ ] Conteúdo adicionado
+- [ ] Imagens inseridas com créditos/fonte
+- [ ] Categoria selecionada
+- [ ] Revisão ortográfica feita
+- [ ] Pré-visualização conferida
 
 ---
 
-## 📊 Resumo das Ações
+## 8. Editar Posts Existentes
 
-| Ação | Caminho | Resultado |
-|------|---------|-----------|
-| **Criar Post** | Posts → Adicionar Novo | Nova notícia |
-| **Editar Post** | Posts → [Post] → Editar | Modificar existente |
-| **Excluir Post** | Posts → [Post] → Lixeira | Remover notícia |
-| **Visualizar** | Posts → [Post] → Ver | Pré-visualização |
-| **Publicar** | Editor → Publicar | Notícia online |
+1. Acesse **Posts** na barra lateral
+2. Localize o post desejado
+3. Passe o mouse sobre o título → **Editar**
+4. Faça alterações → **Atualizar**
 
 ---
 
-## ❓ Dúvidas Frequentes
+## 9. Excluir Posts
 
-??? question "Posso agendar uma publicação para o futuro?"
-    Sim! Na área de publicação, clique em **"Editar"** ao lado de "Publicar imediatamente" e defina a data e hora desejadas.
+1. Acesse **Posts** → localize o post
+2. Passe o mouse sobre o título → **Lixeira**
 
-??? question "Como adicionar imagens ao post?"
-    No construtor Divi, use o módulo de **Imagem** ou arraste a imagem diretamente para a área de conteúdo.
+!!! warning "Atenção"
+    Posts na lixeira podem ser recuperados em até 30 dias.
 
-??? question "Posso salvar um rascunho e continuar depois?"
-    Sim! Clique em **"Salvar Rascunho"** a qualquer momento. O post ficará salvo em Posts → Rascunhos.
+---
+
+## 10. Objetivo Editorial
+
+Cada publicação deve ser:
+
+- **Clara**
+- **Visual**
+- **Agradável de ler**
+- **Funcional em qualquer tela**
+
+!!! tip "Lembre-se"
+    Consistência visual e qualidade editorial são mais importantes que quantidade de efeitos.
 
 ---
 
